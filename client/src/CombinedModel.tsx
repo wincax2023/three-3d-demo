@@ -1,7 +1,7 @@
 import { useRef, useEffect } from 'react'
 import { useGLTF } from '@react-three/drei'
 import { useLoader } from '@react-three/fiber'
-import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader'
+import { OBJLoader } from 'three/addons/loaders/OBJLoader.js';
 import * as THREE from 'three';
 import { Canvas } from '@react-three/fiber';
 

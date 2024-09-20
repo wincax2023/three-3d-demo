@@ -14,7 +14,7 @@ function App() {
     formData.append('image', file);
 
     try {
-      const response = await axios.post('/generate-head', formData, {
+      const response = await axios.post('http://127.0.0.1:5000/generate-head', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },

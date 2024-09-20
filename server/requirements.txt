@@ -1,1 +1,6 @@
-Flask==2.1.0
+Flask==3.0.3
+Flask-CORS==5.0.0
+modelscope==1.18.0
+torch==1.11.0
+tensorflow==2.5.0
+datasets>=2.18.0,<3.0.0
